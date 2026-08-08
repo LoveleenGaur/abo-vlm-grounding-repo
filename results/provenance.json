@@ -1,0 +1,57 @@
+{
+  "config": {
+    "n_products": 150,
+    "seed": 20260719,
+    "listings_shards": [
+      "0",
+      "1",
+      "2"
+    ],
+    "max_new_tokens": 150,
+    "usable_min_trigram": 0.6,
+    "models": [
+      {
+        "key": "smolvlm-500m",
+        "repo": "HuggingFaceTB/SmolVLM-500M-Instruct",
+        "revision": null
+      },
+      {
+        "key": "qwen2vl-2b",
+        "repo": "Qwen/Qwen2-VL-2B-Instruct",
+        "revision": null
+      }
+    ],
+    "conditions": [
+      "image_meta",
+      "image_only",
+      "image_only_scaffold"
+    ],
+    "target_types": [
+      "HOME",
+      "KITCHEN",
+      "STORAGE",
+      "LAMP",
+      "CHAIR",
+      "TABLE",
+      "BAG",
+      "SHOE",
+      "WATCH",
+      "JEWELRY",
+      "CUP",
+      "BOTTLE",
+      "PILLOW"
+    ]
+  },
+  "n_records": 900,
+  "n_products": 150,
+  "product_types_in_sample": 40,
+  "accelerators": [
+    "Tesla T4"
+  ],
+  "revisions": [],
+  "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "platform": "Linux-6.18.5-x86_64-with-glibc2.39",
+  "pandas": "3.0.2",
+  "numpy": "2.4.4",
+  "timestamp": "2026-07-19T23:35:01"
+}
