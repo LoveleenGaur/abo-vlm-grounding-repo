@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article below."
+title: "Metadata Grounding versus Prompt Engineering in Compute-Constrained Vision-Language Models"
+abstract: >-
+  Reproduction code and released outputs for a controlled comparison of metadata
+  grounding against prompt engineering for factual product demonstration generation
+  by small vision-language models.
+authors:
+  - family-names: "REPLACE"
+    given-names: "REPLACE"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+license: MIT
+repository-code: "https://github.com/REPLACE/REPLACE"
+version: "1.0.0"
+date-released: "2026-07-19"
+keywords:
+  - vision-language models
+  - factual grounding
+  - hallucination
+  - product description generation
+  - direct selling
+  - reproducible evaluation

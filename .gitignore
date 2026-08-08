@@ -1,0 +1,12 @@
+.cache/
+work/
+*.part
+*.jpg
+*.jpeg
+images/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+audit/audit_unblinding_key.csv
+audit/rating_sheet_rater_*_completed.csv
+audit/audit_scored.csv
