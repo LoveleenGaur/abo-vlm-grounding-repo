@@ -1,0 +1,26 @@
+
+Experiment: Third-model ABO VLM grounding study
+Model: microsoft/Phi-3.5-vision-instruct
+Model label: Phi-3.5-Vision (4.2B)
+Products: 150
+Conditions: 3
+Total third-model generations: 450
+Python: 3.12.13
+Transformers: 4.43.0
+Torch: 2.11.0+cu128
+
+Integrity checks:
+qwen2vl-2b: MATCH
+smolvlm-500m: MATCH
+
+Phi-3.5-Vision preview:
+usable paired n = 87
+coverage image_only = 0.306
+coverage image+metadata = 0.850
+grounding delta = +0.544
+paired d = 2.03
+prompting scaffold delta = +0.008
+paired d = 0.05
+
+Final combined rows = 1350
+New Phi-3.5 rows = 450
