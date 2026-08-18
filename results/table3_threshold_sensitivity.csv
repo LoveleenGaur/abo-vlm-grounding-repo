@@ -1,4 +1,7 @@
 model,condition,ge_10w,ge_20w,ge_30w,ge_50w,ge_70w
+phi35-vision-4b,image_meta,1.0,1.0,1.0,0.987,0.467
+phi35-vision-4b,image_only,1.0,1.0,1.0,0.96,0.353
+phi35-vision-4b,image_only_scaffold,1.0,1.0,1.0,0.573,0.02
 qwen2vl-2b,image_meta,1.0,0.993,0.993,0.987,0.98
 qwen2vl-2b,image_only,1.0,1.0,1.0,1.0,1.0
 qwen2vl-2b,image_only_scaffold,0.98,0.827,0.7,0.507,0.253

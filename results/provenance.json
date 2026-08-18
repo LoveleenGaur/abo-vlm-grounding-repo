@@ -19,6 +19,11 @@
         "key": "qwen2vl-2b",
         "repo": "Qwen/Qwen2-VL-2B-Instruct",
         "revision": null
+      },
+      {
+        "key": "phi35-vision-4b",
+        "repo": "microsoft/Phi-3.5-vision-instruct",
+        "revision": null
       }
     ],
     "conditions": [
@@ -42,16 +47,20 @@
       "PILLOW"
     ]
   },
-  "n_records": 900,
+  "n_records": 1350,
   "n_products": 150,
-  "product_types_in_sample": 40,
+  "models_evaluated": [
+    "Qwen2-VL-2B",
+    "SmolVLM-500M",
+    "Phi-3.5-Vision"
+  ],
   "accelerators": [
     "Tesla T4"
   ],
-  "revisions": [],
   "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
-  "platform": "Linux-6.18.5-x86_64-with-glibc2.39",
+  "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
   "pandas": "3.0.2",
   "numpy": "2.4.4",
-  "timestamp": "2026-07-19T23:35:01"
+  "note": "scored_all.csv contains all 1,350 generations across three models; the third model (Phi-3.5-Vision) was added in revision and generated with run_third_model.py.",
+  "timestamp": "2026-08-17T23:11:55"
 }
